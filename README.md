@@ -1,29 +1,40 @@
-# Lecture 8: Fixing a Buggy Python Script Using AI
+Lecture 8: Fixing a Buggy Python Script Using AI
 
-## Objective
+Objective
+
 Identify and fix logical bugs in a Python script using unit testing and AI-assisted code review.
 
-## Files
-- student_utils.py — Python utility functions.
-- test_student_utils.py — Nine unit tests.
-- bug_notes.md — Description of the bugs and their fixes.
-- audit.md — Initial audit and final validation report.
+Project Files
 
-## Bugs Identified
-1. Incorrect average calculation.
+* student_utils_buggy.py — Reconstructed buggy version for the RED stage.
+* student_utils.py — Corrected Python utility functions.
+* test_student_utils.py — Nine unit tests.
+* bug_notes.md — Description of the identified bugs and fixes.
+* audit.md — Code audit and final validation report.
+
+Bugs Identified
+
+1. Incorrect average calculation due to an incorrect denominator.
 2. Incorrect passing-mark boundary condition.
 3. Incorrect grade-checking order.
 
-## Testing Process
-1. Run tests against the original buggy implementation (RED stage).
-2. Investigate the failures and correct the code.
-3. Run the same tests against the corrected implementation (GREEN stage).
+Debugging Workflow
 
-## Final Result
-All nine unit tests pass after the three bugs are fixed.
+1. RED: Run tests against the buggy implementation and record the failures.
+2. FIX: Correct the three logical bugs.
+3. GREEN: Run the tests against the corrected implementation.
 
-## Tools Used
-- Python
-- Google Colab
-- unittest
-- ChatGPT for AI-assisted debugging and code review
+Validation
+
+All nine unit tests passed against the corrected implementation in Google Colab.
+
+Tools Used
+
+* Python
+* Google Colab
+* unittest
+* ChatGPT for AI-assisted debugging and code review
+
+Evidence
+
+Screenshots of the failing and passing test outputs should be retained with the practical submission.
