@@ -19,3 +19,4 @@ def get_grade(average):
     elif average >= 45:
         return "Second"
     return "Fail"
+# All three logical bugs have been fixed and verified by unit tests.
